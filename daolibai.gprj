@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18C" pn="GW2A-LV18PG256C8/I7">gw2a18c-011</Device>
+    <FileList>
+        <File path="src/adc.v" type="file.verilog" enable="1"/>
+        <File path="src/angle_velocity_timed.v" type="file.verilog" enable="1"/>
+        <File path="src/daolibai.v" type="file.verilog" enable="1"/>
+        <File path="src/encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c.v" type="file.verilog" enable="1"/>
+        <File path="src/key.v" type="file.verilog" enable="1"/>
+        <File path="src/knob_position.v" type="file.verilog" enable="1"/>
+        <File path="src/oled.v" type="file.verilog" enable="1"/>
+        <File path="src/oled_number.v" type="file.verilog" enable="1"/>
+        <File path="src/pid_angle.v" type="file.verilog" enable="1"/>
+        <File path="src/pid_position.v" type="file.verilog" enable="1"/>
+        <File path="src/position_half_turn.v" type="file.verilog" enable="1"/>
+        <File path="src/pwm.v" type="file.verilog" enable="1"/>
+        <File path="src/swing_up.v" type="file.verilog" enable="1"/>
+        <File path="src/uart.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_position.v" type="file.verilog" enable="1"/>
+        <File path="src/daolibai.cst" type="file.cst" enable="1"/>
+        <File path="src/daolibai.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>
